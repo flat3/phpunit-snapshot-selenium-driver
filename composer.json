@@ -1,0 +1,30 @@
+{
+    "name": "flat3/phpunit-snapshot-selenium-driver",
+    "description": "Provides Selenium snapshot assertions for Laravel Dusk",
+    "keywords": [
+        "laravel",
+        "dusk",
+        "screenshot",
+        "selenium"
+    ],
+    "homepage": "https://github.com/flat3/phpunit-snapshot-selenium-driver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Lloyd",
+            "email": "chrislloyd403@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Flat3\\Snapshots\\Drivers\\SeleniumDriver\\": "src/",
+            "Flat3\\Snapshots\\Drivers\\SeleniumDriver\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+    },
+    "require-dev": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
